@@ -63,22 +63,25 @@ export default function SectionReservationSP() {
           <br />
           for a small number of guests.
         </p>
+<a
+  href="#"
+  className="
+    inline-block
+    text-[12px]
+    tracking-[0.25em]
+    opacity-50
+    border-b border-neutral-400
+    pb-[2px]
+    transition-all duration-300
+    hover:opacity-80
+    hover:border-neutral-600
+    active:opacity-70
+  "
+>
+  Make a reservation
+</a>
 
-        <a
-          href="#"
-          className="
-            inline-block
-            text-sm
-            tracking-wide
-            px-6 py-3
-            border border-neutral-400
-            rounded-full
-            active:scale-[0.97]
-            transition
-          "
-        >
-          Make a reservation
-        </a>
+
       </div>
     </section>
   );
