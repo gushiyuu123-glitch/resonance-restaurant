@@ -65,20 +65,23 @@ export default function SectionPrelude() {
       );
 
       // コピー：少し早めに出す（Heatに被らせない）
-      gsap.fromTo(
-        copyRef.current,
-        { opacity: 0, y: 24 },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 1,
-          ease: "power2.out",
-          scrollTrigger: {
-            trigger: sectionRef.current,
-            start: "top 75%",
-          },
-        }
-      );
+// コピー：一拍遅らせて、静かに出す
+gsap.fromTo(
+  copyRef.current,
+  { opacity: 0, y: 16 },
+  {
+    opacity: 1,
+    y: 0,
+    duration: 1.1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: sectionRef.current,
+      start: "top 63%",
+    },
+  }
+);
+
+      
     }, sectionRef);
 
     return () => ctx.revert();

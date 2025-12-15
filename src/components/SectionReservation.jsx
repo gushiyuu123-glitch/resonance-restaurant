@@ -64,20 +64,22 @@ gsap.fromTo(
           Each evening is prepared for a small number of guests.
         </p>
 
-        <a
-          href="#"
-          className="
-            inline-block
-            text-sm
-            tracking-wide
-            pb-1
-            border-b border-neutral-400
-            hover:border-neutral-900
-            transition-colors duration-300
-          "
-        >
-          Make a reservation
-        </a>
+    <a
+  href="#"
+  className="
+    inline-block
+    text-sm
+    tracking-[0.18em]
+    pb-[3px]
+    border-b border-neutral-400/70
+    transition-all duration-300 ease-out
+    hover:border-neutral-900
+    hover:tracking-[0.22em]
+  "
+>
+  Make a reservation
+</a>
+
       </div>
     </section>
   );
