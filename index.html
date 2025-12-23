@@ -2,12 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Google翻訳を完全無効化 -->
+
+    <!-- =======================
+         Primary SEO
+    ======================== -->
+    <title>RÉSONANCE — A Quiet Dialogue Between Fire, Time, and Ingredients</title>
+    <meta
+      name="description"
+      content="RÉSONANCE is a contemporary restaurant concept where silence, fire, and time shape each dish. A minimal world built on light, restraint, and precision."
+    />
+    <link rel="canonical" href="https://resonance-restaurant.vercel.app/" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- =======================
+         OGP / SNS
+         ※ 画像はPNG前提（サイズ指定なしでOK）
+    ======================== -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RÉSONANCE" />
+    <meta
+      property="og:title"
+      content="RÉSONANCE — A Quiet Dialogue Between Fire, Time, and Ingredients"
+    />
+    <meta
+      property="og:description"
+      content="A contemporary restaurant concept where silence and fire shape every plate."
+    />
+    <meta property="og:url" content="https://resonance-restaurant.vercel.app/" />
+    <meta property="og:image" content="https://resonance-restaurant.vercel.app/ogp/resonance.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="RÉSONANCE — A Quiet Dialogue Between Fire, Time, and Ingredients"
+    />
+    <meta
+      name="twitter:description"
+      content="A contemporary restaurant concept where silence and fire shape every plate."
+    />
+    <meta name="twitter:image" content="https://resonance-restaurant.vercel.app/ogp/resonance.png" />
+
+    <!-- =======================
+         Disable Google Translate
+    ======================== -->
     <meta name="google" content="notranslate" />
-    <title>resonance-restaurant</title>
+
+    <!-- =======================
+         Icons / Favicon
+         ※ Viteのままは作品として弱いから差し替え推奨
+         public/favicon.png を置けばOK
+    ======================== -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- =======================
+         JSON-LD (Website)
+         ※ ポートフォリオ作品でも入れてOK（むしろ強い）
+    ======================== -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "RÉSONANCE",
+        "url": "https://resonance-restaurant.vercel.app/",
+        "description": "A contemporary restaurant concept where silence, fire, and time shape each dish.",
+        "inLanguage": "en",
+        "publisher": {
+          "@type": "Organization",
+          "name": "GUSHIKEN DESIGN"
+        }
+      }
+    </script>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
