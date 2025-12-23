@@ -79,8 +79,27 @@ gsap.fromTo(
 >
   Make a reservation
 </a>
+{/* ▼ GUSHIKEN DESIGN link (minimal footer substitute) */}
+<div className="mt-24 opacity-40 hover:opacity-70 transition-opacity duration-500">
+  <a
+    href="https://gushikendesign.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      text-[10px]
+      tracking-[0.32em]
+      uppercase
+      text-neutral-600
+      hover:text-neutral-900
+      transition-colors
+    "
+  >
+    © 2025 GUSHIKEN DESIGN — Portfolio
+  </a>
+</div>
 
       </div>
+      
     </section>
   );
 }
