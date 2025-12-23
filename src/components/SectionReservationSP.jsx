@@ -80,6 +80,30 @@ export default function SectionReservationSP() {
 >
   Make a reservation
 </a>
+{/* ▼ GUSHIKEN DESIGN link — Silent Signature Footer (SP) */}
+<div className="mt-20 opacity-50 hover:opacity-80 transition-all duration-600 md:hidden">
+  <a
+    href="https://gushikendesign.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      text-[11px]
+      tracking-[0.26em]
+      uppercase
+      text-white/60
+      hover:text-white
+      transition-colors
+      block
+      text-center
+      leading-relaxed
+    "
+  >
+    © 2025 GUSHIKEN DESIGN
+    <span className="block text-[10px] tracking-[0.20em] mt-1">
+      Portfolio Site
+    </span>
+  </a>
+</div>
 
 
       </div>
